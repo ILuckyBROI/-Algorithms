@@ -18,7 +18,6 @@ def create_1():
 
 cProfile.run('create_1()')
 
-
 def create_2():
     from random import randint, seed
     seed(42)
